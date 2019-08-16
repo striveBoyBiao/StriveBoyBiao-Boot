@@ -1,0 +1,16 @@
+server:
+    port: 8080
+
+#spring
+spring:
+  mail:
+    host: smtp.exmail.qq.com
+    username: 1169763240@qq.com
+    password: rpgholmnjkaliacd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>striveboybiao-boot</artifactId>
+        <groupId>com.zizhuling.striveboybiao.boot</groupId>
+        <version>1.0.5.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>striveboybiao-boot-common</artifactId>
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+
+    <modules>
+        <module>striveboybiao-boot-common-base</module>
+        <module>striveboybiao-boot-common-hibernatemvc</module>
+        <module>striveboybiao-boot-common-mybatismvc</module>
+        <module>striveboybiao-boot-common-query</module>
+        <module>striveboybiao-boot-common-security</module>
+        <module>striveboybiao-boot-common-utils</module>
+        <module>striveboybiao-boot-common-oss</module>
+        <module>striveboybiao-boot-common-quartz</module>
+        <module>striveboybiao-boot-common-sms</module>
+        <module>striveboybiao-boot-common-email</module>
+    </modules>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <!-- 编码和编译和JDK版本 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
