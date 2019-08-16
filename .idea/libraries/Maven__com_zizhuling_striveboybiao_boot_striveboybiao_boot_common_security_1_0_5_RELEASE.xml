@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zizhuling.striveboybiao.boot:striveboybiao-boot-common-security:1.0.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zizhuling/striveboybiao/boot/striveboybiao-boot-common-security/1.0.5.RELEASE/striveboybiao-boot-common-security-1.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zizhuling/striveboybiao/boot/striveboybiao-boot-common-security/1.0.5.RELEASE/striveboybiao-boot-common-security-1.0.5.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zizhuling/striveboybiao/boot/striveboybiao-boot-common-security/1.0.5.RELEASE/striveboybiao-boot-common-security-1.0.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
