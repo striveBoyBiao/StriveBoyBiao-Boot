@@ -153,9 +153,9 @@ sms:
  sign-name: 立行教育
  aliyun:
    #阿里云api的密钥access key id
-   access-key-id: LTAI6gdev9OCGPgB
+   access-key-id: 
    #阿里云api的密钥access key secret
-   access-key-secret: vosAsX4bFfB1DizVKsDhOCMEibYv5Y
+   access-key-secret: 
 
 #定时任务配置
 quartz:
